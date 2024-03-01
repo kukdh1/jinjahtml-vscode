@@ -541,7 +541,7 @@
           ".svh.jinja",
           ".svh.jinja2"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration-systemverilog.json"
       }
     ],
     "htmlLanguageParticipants": [
@@ -707,6 +707,11 @@
         "language": "jinja-html",
         "scopeName": "text.html.jinja",
         "path": "./snippets/django-snippets.json"
+      },
+      {
+        "language": "jinja-systemverilog",
+        "scopeName": "source.systemverilog.jinja",
+        "path": "./snippets/systemverilog-snippets.json"
       }
     ],
     "breakpoints": [
