@@ -1,0 +1,13 @@
+{
+  "name": "jinja-systemverilog",
+  "scopeName": "source.systemverilog.jinja",
+  "comment": "Jinja SystemVerilog Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.systemverilog"
+    }
+  ]
+}

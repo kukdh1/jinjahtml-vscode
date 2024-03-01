@@ -512,6 +512,36 @@
           ".rs.jinja2"
         ],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-verilog",
+        "aliases": [
+          "Jinja Verilog"
+        ],
+        "extensions": [
+          ".v.j2",
+          ".v.jinja",
+          ".v.jinja2",
+          ".vh.j2",
+          ".vh.jinja",
+          ".vh.jinja2"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-systemverilog",
+        "aliases": [
+          "Jinja SystemVerilog"
+        ],
+        "extensions": [
+          ".sv.j2",
+          ".sv.jinja",
+          ".sv.jinja2",
+          ".svh.j2",
+          ".svh.jinja",
+          ".svh.jinja2"
+        ],
+        "configuration": "./language-configuration.json"
       }
     ],
     "htmlLanguageParticipants": [
@@ -660,6 +690,16 @@
         "language": "jinja-rust",
         "scopeName": "source.rust.jinja",
         "path": "./syntaxes/jinja-rust.tmLanguage.json"
+      },
+      {
+        "language": "jinja-verilog",
+        "scopeName": "source.verilog.jinja",
+        "path": "./syntaxes/jinja-verilog.tmLanguage.json"
+      },
+      {
+        "language": "jinja-systemverilog",
+        "scopeName": "source.systemverilog.jinja",
+        "path": "./syntaxes/jinja-systemverilog.tmLanguage.json"
       }
     ],
     "snippets": [
@@ -750,7 +790,16 @@
       },
       {
         "language": "jinja-rust"
+      },
+      {
+        "language": "jinja-verilog"
+      },
+      {
+        "language": "jinja-systemverilog"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }
